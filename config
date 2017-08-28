@@ -197,5 +197,6 @@ bindsym $mod+Shift+x exec i3lock
 
 assign [class="Firefox"] $workspace2 
 exec_always no-startup-id feh --bg-scale /home/jerome/Pictures/maha_1024x768_night.jpg
+assign [class="Gnome-terminal"] $workspace1
 assign [class="Atom"] $workspace3
 hide_edge_borders both
