@@ -109,9 +109,9 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 set $workspace1 "1. Terminals "
-set $workspace2 "2. Firefox  "
 set $workspace3 "3. Atom  "
 set $workspace10 "10. Music  "
+set $workspace2 "2. Chrome   "
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -196,8 +196,8 @@ bar {
 
 bindsym $mod+Shift+x exec i3lock
 
-assign [class="Firefox"] $workspace2 
 exec_always no-startup-id feh --bg-scale /home/jerome/Pictures/maha_1024x768_night.jpg
 assign [class="Gnome-terminal"] $workspace1
+assign [class="Google-chrome"] $workspace2
 assign [class="Atom"] $workspace3
 hide_edge_borders both
