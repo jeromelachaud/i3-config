@@ -201,3 +201,8 @@ assign [class="Gnome-terminal"] $workspace1
 assign [class="Google-chrome"] $workspace2
 assign [class="Atom"] $workspace3
 hide_edge_borders both
+for_window [class="^.*"] border pixel 10
+gaps inner 10
+gaps outer 0
+smart_gaps on
+smart_borders on
